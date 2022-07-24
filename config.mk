@@ -2,7 +2,8 @@
 VERSION = 5.1
 
 # paths
-PREFIX = /usr/local
+# changing from /usr/local to overwrite Debian's apt install in /usr/bin
+PREFIX = /usr
 MANPREFIX = $(PREFIX)/share/man
 
 X11INC = /usr/X11R6/include
